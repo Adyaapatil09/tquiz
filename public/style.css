@@ -7,7 +7,6 @@
 
 html,
 body {
- 
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5) !important;
   height: 100vh;
   width: 100%;
@@ -323,35 +322,6 @@ footer .total_que span p:first-child{
     padding-left: 0px;
 }
 
-footer button{
-    height: 40px;
-    padding: 0 13px;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
-    line-height: 10px;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.95);
-    transition: all 0.3s ease;
-}
-
-footer button:hover{
-    background: #0263ca;
-}
-
-footer button.show{
-    opacity: 1;
-    pointer-events: auto;
-    transform: scale(1);
-}
-
 .result_box{
     background: #fff;
     border-radius: 5px;
@@ -640,7 +610,7 @@ section .option_list .option .icon{
     background: #d4edda;
 }
 
-.option_list .option .icon.cross{
+.option_list .icon.cross{
     color: #a42834;
     background: #f8d7da;
     border-color: #a42834;
@@ -669,34 +639,11 @@ footer .total_que span p:first-child{
     padding-left: 0px;
 }
 
-footer button{
-    height: 40px;
-    padding: 0 13px;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
-    line-height: 10px;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.95);
-    transition: all 0.3s ease;
-}
 
 footer button:hover{
     background: #0263ca;
 }
 
-footer button.show{
-    opacity: 1;
-    pointer-events: auto;
-    transform: scale(1);
-}
 
 .result_box{
     background: #fff;
@@ -770,6 +717,23 @@ footer button.show{
 }
 
 .buttons button.quit:hover{
+
     color: #fff;
     background: #007bff;
+}
+
+.option{
+    background-color: aliceblue;
+    border:1px solid #84c5fe;
+    transition: all 0.3s ease;
+}
+.option:hover{
+    color: #004085 !important;
+    background: #cce5ff !important;
+    border: 1px solid #b8daff !important;
+}
+option:active{
+    color: #004085 !important;
+    background: #cce5ff !important;
+    border: 1px solid #b8daff !important;
 }
